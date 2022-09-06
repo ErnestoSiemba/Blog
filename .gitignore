@@ -1,4 +1,8 @@
 blog/__pycache__
 news/__pycache__
+posts/__pycache__
+playground/__pycache__
+users/__pycache__
+
 *.lock
 *.log
