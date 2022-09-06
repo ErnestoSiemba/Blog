@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+
+    
+    <title>Index Page</title>
+  </head>
+  <body>
+    <h1>Index Page</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum rem
+      cumque, doloribus in enim explicabo nisi a est minima error quis tenetur
+      earum perferendis voluptatem voluptas. Iste, nihil, numquam, autem dicta
+      esse cumque aliquam hic et aut mollitia quaerat error maxime corrupti
+      tempore eum tenetur quia pariatur deserunt quibusdam illum!
+    </p>
+
+    <a href="{% url 'posts:about' %}">About Page</a>
+    <br>
+    <img src="{% static 'beard.png' %}" alt="Beard Guy" width="300" height="300">
+  </body>
+</html>
